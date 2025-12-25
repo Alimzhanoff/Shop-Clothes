@@ -12,11 +12,11 @@ public class Main {
 
         // Clients
         System.out.println("----------------Clients------------");
-        Clients jeff = new Clients("Jeff Bezos", "Bezdar@Jeff.com", "Prinston 60A/6", 777);
+        Clients jeff = new Clients("Jeff Bezos", "Bezdar@Jeff.com", "Prinston 60A/6 ", 777);
         System.out.println(jeff.getClientInfo());
-        Clients bob = new Clients("Bob Mazovski", "Bobresi@email.com", "Jerdin_birjeri 65A", 888);
+        Clients bob = new Clients("Bob Mazovski", "Bobresi@email.com", "Jerdin_birjeri 65A ", 888);
         System.out.println(bob.getClientInfo());
-        Clients Kanye = new Clients("Kanye West", "KanyeWestern", "USA56/6", 999);
+        Clients Kanye = new Clients("Kanye West", "KanyeWestern", "USA56/6 ", 999);
         System.out.println(Kanye.getClientInfo());
 
         //Clothes
@@ -33,9 +33,9 @@ public class Main {
 
         //Staff
         System.out.println("----------------------STAFF------------------");
-        Staff Elena = new Staff("Elena", "Director", 8, 8);
-        Staff Kagan = new Staff( "Kagan", "Stylist", 4, 7);
-        Staff Darkhan = new Staff("Darkhan", "Cashier", 2, 6);
+        Staff Elena = new Staff("Elena", "Director", 31, 8);
+        Staff Kagan = new Staff( "Kagan", "Stylist", 19, 7);
+        Staff Darkhan = new Staff("Darkhan", "Cashier", 20, 6);
 
         Elena.printStaff();
         Kagan.printStaff();;

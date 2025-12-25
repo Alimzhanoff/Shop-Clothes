@@ -5,7 +5,7 @@ public class Staff {
     private int number;
 
     //Contructors
-    Staff(String name, String rang, int workExperience, int number) {
+    Staff(String name, String rang, int age, int number) {
         this.name = name;
         this.age = age;
         this.rang = rang;

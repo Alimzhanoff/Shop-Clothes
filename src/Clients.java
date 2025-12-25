@@ -10,7 +10,7 @@ public class Clients {
         this.name = name;
         this.email = email;
         this.address = address;
-        this.number;
+        int number1 = this.number;
     }
 
     public String getName() {
@@ -20,7 +20,7 @@ public class Clients {
         return this.email;
     }
     public String getAddress(){return this.address;}
-    public int getNumber(){return this.number};
+    public int getNumber(){return this.number;}
 
     public void setName(String name) {
         this.name = name;
