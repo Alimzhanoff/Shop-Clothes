@@ -22,7 +22,7 @@ public class Main {
         //Clothes
 
         System.out.println("-----------------Merchendise------------------");
-        Merchandise jeans = new Merchandise("Levi's 501", 79.9, "M", "Blue");
+        Merchandise jeans = new Merchandise("Levi's 501 jeans", 79.9, "M", "Blue");
         Merchandise tShirt =  new Merchandise("Nike T-shirt", 15.99, "L", "Yellow");
         Merchandise sneakers = new Merchandise("Nike air Jordans", 60, "46", "Black");
 
